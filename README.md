@@ -285,8 +285,3 @@ terakhir di view kalian bisa lakukan seperti cara dibawah ini, btw gua pakai boo
 ## Hasil Screenshot
 ![WhatsApp Image 2023-02-20 at 18 20 13](https://user-images.githubusercontent.com/78329755/220091862-bef72127-179d-446b-98cd-1860224d0ca7.jpeg)
 
-## Dev 
-DayCod Github : <a href="https://github.com/dayCod">Follow Disini</a>
-
-thanks guys
-
