@@ -41,7 +41,14 @@
                                 {{ $user->email }}
                             </td>
                             <td class="text-center align-middle">
-                                {{ $user->status }}
+                                <span @class([
+                                    'badge',
+                                    'bg-primary' => $user->status->isActive(),
+                                    'bg-warning' => $user->status->isInactive(),
+                                    'bg-danger' => $user->status->isBlocked()
+                                ])>
+                                    {{ $user->status->getTextLabel() }}
+                                </span>
                             </td>
                             <td class="text-center align-middle">
                                 {{ $user->created_at }}
